@@ -15,65 +15,88 @@
 
 <body>
 
-<nav>
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.jpg" alt="website logo">
+        <p class="col-sm-6 col-md-4 float-right"><span>Anna Duo Designs</span></p>
+      </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="multimeida.html">Multimedia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="skills.html">Skills/Activities</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+</div>
+
+<div class="container">
+<ul>
+  <li>
+      <p>Publications</p>
+      <img class="img-fluid col-xs-12 col-sm-6 float-left" src="images/crop-book.png" alt="thumbnail of publications">
+
+      <p>Websites</p>
+
+      <img class="img-fluid col-xs-6 col-sm-offset-6 col-sm-6 float-right" src="images/crop-website.png" alt="thumbnail for website page">
+
+  </li>
+</ul>
+
+</div>
+
+<!-- <article class="float-right">
+
+  <header>
+
+    <a href="#" target="_blank" title="#"></a>
+    <h1>Anna Duo Designs</h1>
+  </header>
+</article> -->
+
+<hr class="d-block d-sm-none-offset-4 col-3">
+
+<article class="container">
   <ul>
-    <li>Portfolio</li>
-    <li>About</li>
-    <li>Multimedia</li>
-    <li>Skills/Activities</li>
-  </ul>
-</nav>
-
-<div>
-<ul>
   <li>
-    <span><img src="images/logo.jpg" class="logo" alt="website logo"></span>
-    <p><span>Anna Duo Designs</span></p>
+      <p>Multimedia</p>
+      <img class="img-fluid col-xs-12 col-sm-6 col-md-6 float-left" src="images/colby_crop.png" id="multimedia" alt="multimedia thumbnail">
+      <p>Posters</p>
+      <img class="img-fluid col-sm-offset-6 col-sm-6 col-md-offset-6 col-md-6 float-right" src="images/dancenow.png" id="poster" alt="multimedia thumbnail">
   </li>
 </ul>
-</div>
 
-<div>
-<ul>
-  <li>
-    <span>
-      <img src="images/crop-book.png" class="publication" alt="thumbnail of publications">
-      <img src="images/crop-website.png" class="websitethumbnail" alt="thumbnail for website page">
-    </span>
-  </li>
+</article>
 
-  <li>Publications</li>
-  <li>Websites</li>
-</ul>
-</div>
+<hr class="d-block d-sm-none-offset-4 col-3">
 
-<div>
+<section class="container">
   <ul>
-  <li>
-    <span>
-      <img src="images/colby_crop.png" class="multimedia" alt="multimedia thumbnail">
-      <img src="images/dancenow.png" class="multimedia" alt="multimedia thumbnail">
-    </span>
+    <li>
+      <p>Photography</p>
+      <img class="img-fluid col-xs-12 col-sm-6 col-md-6 col-lg-6" src="images/photo-crop.png" id="photography" alt="photo thumbnail">
+      <hr class="d-block d-sm-none-offset-4 col-3">
   </li>
-  <li>Multimedia</li>
-  <li>Posters</li>
 </ul>
-</div>
+</section>
 
-<div>
-
-<ul>
-  <li>
-    <img src="images/photo-crop.png" class="multimedia" alt="multimedia thumbnail">
-  </li>
-  <li>Photography</li>
-</ul>
-</div>
-
-<footer>
-  <div><img src="images/facebook.png" class="facebook" alt="social media thumbnail for facebook page"></div>
-  <div><img src="images/instagram-01.png" class="instagram" alt="social media thumbnail for instagram page"></div>
-  <div><img src="images/twitter.png" class="twitter" alt="social media thumbnail for twitter page"></div>
+<footer class="container">
+  <div><img class="img-fluid" src="images/facebook.png" id="facebook" alt="social media thumbnail for facebook page">
+  <img class="img-fluid" src="images/instagram-01.png" id="instagram" alt="social media thumbnail for instagram page">
+  <img src="images/twitter.png" id="twitter" alt="social media thumbnail for twitter page"></div>
 </footer>
 
 </body>
