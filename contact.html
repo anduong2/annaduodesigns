@@ -14,49 +14,64 @@
 
 <body>
 
-<nav>
-  <ul>
-    <li>Portfolio</li>
-    <li>About</li>
-    <li>Multimedia</li>
-    <li>Skills/Activities</li>
-  </ul>
-</nav>
+  <div class="container">
 
-<div>
-<ul>
-  <li>
-    <span><img src="images/logo.jpg" class="logo" alt="website logo"></span>
-    <p><span>Anna Duo Designs</span></p>
-  </li>
-</ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img class="img-fluid col-xs-3" src="images/logo.jpg" alt="website logo">
+        <p class="col-offset-xs-3 col-xs-3 col-sm-6 col-md-4 float-right"><span>Anna Duo Designs</span></p>
+      </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="multimeida.html">Multimedia</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="skills.html">Skills/Activities</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+  </div>
+
+<div class="container">
+<h1 class="col-offset-xs-4 col-xs-4 col-offset-sm-4 col-sm-4 col-offset-sm-4">Contact</h1>
+<img src="images/pfp.png" class="profile" alt="profile photo of Anna Duong">
+
+<p class="col-offset-xs-12 col-offset-sm-12 col-sm-6">annaduodesigns[AT]gmail[DOT]com<p>
 </div>
 
-<div>
-<h1>Contact</h1>
-<img src="images/pfp.png" class="profile" alt="profile photo of Anna Duong">
-annaduodesigns[AT]gmail[DOT]com
-
+<article class="container">
+  <h2>Send a Message</h2>
 <ul>
-  <li>Send a Message</li>
   <li>
-    <p>First</p>
-    <p>last</p>
+    <p class="col-xs-4 col-sm-4 col-md-6 col-lg-6 float-left">First</p>
+    <p class="col-xs-8 col-sm-8 col-md-6 col-lg-6 float-right">last</p>
   </li>
   <li>Email</li>
   <li>Message</li>
 </ul>
+</article>
 
+<div class="container">
 <ul>
-  <li>Cancel</li>
-  <li>Submit</li>
+  <li class="col-offset-xs-4 col-xs-3">Cancel</li>
+  <li class="col-xs-5">Submit</li>
 </ul>
 </div>
 
-<footer>
-  <span><img src="images/facebook.png" class="facebook" alt="social media thumbnail for facebook page"></span>
-  <span><img src="images/instagram-01.png" class="instagram" alt="social media thumbnail for instagram page"></span>
-  <span><img src="images/twitter.png" class="twitter" alt="social media thumbnail for twitter page"></span>
+<footer class="container">
+  <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 float-left"><img class="img-fluid" src="images/facebook.png" id="facebook" alt="social media thumbnail for facebook page">
+  <img class="img-fluid" src="images/instagram-01.png" id="instagram" alt="social media thumbnail for instagram page">
+  <img src="images/twitter.png" id="twitter" alt="social media thumbnail for twitter page"></div>
 </footer>
 
 </body>
