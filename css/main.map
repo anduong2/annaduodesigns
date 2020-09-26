@@ -5,8 +5,8 @@
 		"../sass/main.scss"
 	],
 	"sourcesContent": [
-		"$primaryColor: #D749AA;\r\n\r\nbody {\r\n  background-color: #F9F1F0;\r\n}\r\n\r\nh1 {\r\n  color: $primaryColor;\r\n}\r\n\r\ntitle {\r\n  color: #D749AA;\r\n}\r\n\r\np {\r\n  color: $primaryColor;\r\n}\r\n"
+		"$primaryColor: #D749AA;\r\n$fontstack: Montserrat, Arial Black, Helvetica, sans-serif;\r\n\r\nbody {\r\n  background-color: #F9F1F0;\r\n\r\n    h1 {\r\n      color: $primaryColor;\r\n      font: $fontstack;\r\n    }\r\n\r\n    title {\r\n      color: #D749AA;\r\n    }\r\n\r\n    p {\r\n      color: $primaryColor;\r\n    }\r\n\r\n    h3 {\r\n      color: $primaryColor;\r\n      font: $fontstack;\r\n      text-align: left;\r\n      font-family: Montserrat-Black, Montserrat Bold, Montserrat, Helvetica, Arial Black, sans-serif;\r\n    }\r\n\r\n\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": ";AAEA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,OAAO;CAC1B;;;AAED,AAAA,EAAE,CAAC;EACD,KAAK,EAPQ,OAAO;CAQrB;;;AAED,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,OAAO;CACf;;;AAED,AAAA,CAAC,CAAC;EACA,KAAK,EAfQ,OAAO;CAgBrB"
+	"mappings": ";AAGA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,OAAO;CAuB1B;;;AAxBD,AAGI,IAHA,CAGA,EAAE,CAAC;EACD,KAAK,EAPI,OAAO;EAQhB,IAAI,EAPE,UAAU,EAAE,KAAK,CAAC,KAAK,EAAE,SAAS,EAAE,UAAU;CAQrD;;;AANL,AAQI,IARA,CAQA,KAAK,CAAC;EACJ,KAAK,EAAE,OAAO;CACf;;;AAVL,AAYI,IAZA,CAYA,CAAC,CAAC;EACA,KAAK,EAhBI,OAAO;CAiBjB;;;AAdL,AAgBI,IAhBA,CAgBA,EAAE,CAAC;EACD,KAAK,EApBI,OAAO;EAqBhB,IAAI,EApBE,UAAU,EAAE,KAAK,CAAC,KAAK,EAAE,SAAS,EAAE,UAAU;EAqBpD,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,iFAAiF;CAC/F"
 }

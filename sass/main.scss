@@ -1,17 +1,28 @@
 $primaryColor: #D749AA;
+$fontstack: Montserrat, Arial Black, Helvetica, sans-serif;
 
 body {
   background-color: #F9F1F0;
-}
 
-h1 {
-  color: $primaryColor;
-}
+    h1 {
+      color: $primaryColor;
+      font: $fontstack;
+    }
 
-title {
-  color: #D749AA;
-}
+    title {
+      color: #D749AA;
+    }
 
-p {
-  color: $primaryColor;
+    p {
+      color: $primaryColor;
+    }
+
+    h3 {
+      color: $primaryColor;
+      font: $fontstack;
+      text-align: left;
+      font-family: Montserrat-Black, Montserrat Bold, Montserrat, Helvetica, Arial Black, sans-serif;
+    }
+
+
 }

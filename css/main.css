@@ -1,21 +1,30 @@
-/* line 3, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 4, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 body {
   background-color: #F9F1F0;
 }
 
 /* line 7, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
-h1 {
+body h1 {
+  color: #D749AA;
+  font: Montserrat, Arial Black, Helvetica, sans-serif;
+}
+
+/* line 12, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+body title {
   color: #D749AA;
 }
 
-/* line 11, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
-title {
+/* line 16, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+body p {
   color: #D749AA;
 }
 
-/* line 15, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
-p {
+/* line 20, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+body h3 {
   color: #D749AA;
+  font: Montserrat, Arial Black, Helvetica, sans-serif;
+  text-align: left;
+  font-family: Montserrat-Black, Montserrat Bold, Montserrat, Helvetica, Arial Black, sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */
