@@ -7,10 +7,21 @@ body {
     h1 {
       color: $primaryColor;
       font: $fontstack;
+      margin-left: 30px;
+      margin-bottom: 50px;
+      text-align: left;
     }
 
     title {
       color: #D749AA;
+      font-family: Montserrat-Black, Montserrat-Bold, Montserrat, Helvetica, Arial Black, sans-serif;
+      text-align: center;
+
+      title p {
+        color: $primaryColor;
+        font-family: Montserrat-Black, Montserrat-Bold, Montserrat, Helvetica, Arial Black, sans-serif;
+        font-size: 30px;
+      }
     }
 
     p {

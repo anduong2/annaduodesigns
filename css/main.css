@@ -7,19 +7,31 @@ body {
 body h1 {
   color: #D749AA;
   font: Montserrat, Arial Black, Helvetica, sans-serif;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  text-align: left;
 }
 
-/* line 12, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 15, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 body title {
   color: #D749AA;
+  font-family: Montserrat-Black, Montserrat-Bold, Montserrat, Helvetica, Arial Black, sans-serif;
+  text-align: center;
 }
 
-/* line 16, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 20, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+body title title p {
+  color: #D749AA;
+  font-family: Montserrat-Black, Montserrat-Bold, Montserrat, Helvetica, Arial Black, sans-serif;
+  font-size: 30px;
+}
+
+/* line 27, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 body p {
   color: #D749AA;
 }
 
-/* line 20, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 31, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 body h3 {
   color: #D749AA;
   font: Montserrat, Arial Black, Helvetica, sans-serif;
