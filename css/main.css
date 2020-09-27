@@ -64,8 +64,14 @@ ul {
 
 /* line 63, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 ul p {
-  font: Arial, Roboto, Sans-serif;
+  font: Arial;
   margin-top: 0.75em;
+  font-weight: bold;
+}
+
+/* line 74, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+footer ul img {
+  size: 1.5em;
 }
 
 /*# sourceMappingURL=main.css.map */

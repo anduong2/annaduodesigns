@@ -61,8 +61,19 @@ ul {
   color: $primaryColor;
 
   p {
-    font: $fontface;
+    font: Arial;
     margin-top: $spacer/2;
+    font-weight: bold;
+  }
+
+}
+
+footer {
+
+  ul {
+    img {
+      size: $spacer;
+    }
   }
 
 }
