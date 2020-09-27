@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* line 7, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 header {
   position: absolute;
@@ -23,7 +24,7 @@ body {
 /* line 26, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 body h1 {
   color: #D749AA;
-  font-family: Montserrat, Arial Black, Helvetica, sans-serif;
+  font: Montserrat, Arial Black, Helvetica, sans-serif;
   text-align: center;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
@@ -51,7 +52,7 @@ body p {
 /* line 50, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 body h3 {
   color: #D749AA;
-  font-family: Montserrat, Arial Black, Helvetica, sans-serif;
+  font: Montserrat, Arial Black, Helvetica, sans-serif;
   text-align: left;
   font-family: Montserrat-Black, Montserrat Bold, Montserrat, Helvetica, Arial Black, sans-serif;
 }
@@ -64,7 +65,7 @@ ul {
 
 /* line 63, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 ul p {
-  font-family: Arial;
+  font: Arial;
   margin-top: 0.75em;
   font-weight: bold;
 }
@@ -73,5 +74,7 @@ ul p {
 footer ul img {
   size: 1.5em;
 }
+=======
+>>>>>>> Stashed changes
 
 /*# sourceMappingURL=main.css.map */

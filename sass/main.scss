@@ -25,10 +25,19 @@ body {
 
     h1 {
       color: $primaryColor;
-      font: $fontstack;
+      font-family: $fontstack;
       text-align: center;
       margin-top: $spacer/1;
       margin-bottom: $spacer/1;
+    }
+
+    h2 {
+      color: $primaryColor;
+      font-family: Montserrat;
+      margin-top: $spacer;
+      margin-bottom: $spacer/1;
+      text-align: center;
+      font-weight: bold;
     }
 
     title {
@@ -49,7 +58,7 @@ body {
 
     h3 {
       color: $primaryColor;
-      font: $fontstack;
+      font-family: $fontstack;
       text-align: left;
       font-family: Montserrat-Black, Montserrat Bold, Montserrat, Helvetica, Arial Black, sans-serif;
     }
@@ -61,7 +70,7 @@ ul {
   color: $primaryColor;
 
   p {
-    font: Arial;
+    font-family: Arial;
     margin-top: $spacer/2;
     font-weight: bold;
   }
