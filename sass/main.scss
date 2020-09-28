@@ -89,11 +89,10 @@ section {
 
   h1 {
     color: darken($primaryColor, 30%);
-    font-family: $fontstack;
+    font-family: Montserrat-Black, Montserrat-Bold, Montserrat, Arial Black, Arial, sans-serif;
     text-align: center;
     margin-top: $spacer/1;
     margin-bottom: $spacer/1;
-    text-decoration: underline;
     font-style: bold;
   }
 
