@@ -3,6 +3,7 @@ $secondaryColor: #F9F1F0;
 $fontstack: Montserrat, Arial Black, Helvetica, sans-serif;
 $fontface: Arial, Roboto, Sans-serif;
 $spacer: 1.5em;
+$secondspacer: 1em;
 
 header {
   position: absolute;
@@ -77,11 +78,22 @@ ul {
 
 }
 
+article ul {
+    li {
+      img #cropbook #digital #spine {
+        padding-left: $secondspacer;
+        padding-top: $spacer*2;
+      }
+    }
+}
+
 footer {
 
   ul {
     img {
       size: $spacer;
+      padding-left: 0.5em;
+      padding-top: $secondspacer;
     }
   }
 
