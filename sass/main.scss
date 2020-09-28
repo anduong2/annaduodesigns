@@ -4,6 +4,10 @@ $fontstack: Montserrat, Arial Black, Helvetica, sans-serif;
 $fontface: Arial, Roboto, Sans-serif;
 $spacer: 1.5em;
 $secondspacer: 1em;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
 
 header {
   position: absolute;
@@ -21,11 +25,15 @@ header {
   }
 }
 
-
-img {
-  position: relative;
-  margin-bottom: $spacer;
+nav {
+  background-color: $secondaryColor;
+  img {
+    position: relative;
+    margin-bottom: $spacer;
+    width: 200%;
+  }
 }
+
 
 body {
   background-color: $secondaryColor;
@@ -116,7 +124,8 @@ section {
 
 article ul {
     li {
-      img #cropbook #digital #spine {
+      #cropbook #digital #spine img {
+        size: 50%;
         padding-left: $secondspacer;
         padding-top: $spacer*2;
       }
