@@ -11,6 +11,17 @@ $md: 768px;
 $lg: 992px;
 $xl: 1200px;
 
+@mixin blocks {
+  h1 {
+    color: darken($primaryColor, 30%);
+    font-family: $fontpack;
+    text-align: center;
+    margin-top: $spacer/1;
+    margin-bottom: $spacer/1;
+    font-style: bold;
+  }
+}
+
 header {
   position: absolute;
   color: purple;
