@@ -1,7 +1,9 @@
 $primaryColor: #D749AA;
 $secondaryColor: #F9F1F0;
-$fontstack: Montserrat, Arial Black, Helvetica, sans-serif;
+$fontstack: "Montserrat", Arial Black, Helvetica, sans-serif;
 $fontface: Arial, Roboto, Sans-serif;
+$fontpack: "Montserrat-Black", "Montserrat-Bold", "Montserrat", Helvetica, Arial Black, sans-serif;
+
 $spacer: 1.5em;
 $secondspacer: 1em;
 $sm: 576px;
@@ -16,7 +18,7 @@ header {
   h1 {
     position: relative;
     left: 0;
-    font-family: Montserrat-Black, Arial, Helvetica, sans-serif;
+    font-family: "Montserrat-Black", Arial, Helvetica, sans-serif;
     top: 25%;
     width: 100%;
     text-align: center;
@@ -30,7 +32,7 @@ nav {
   img {
     position: relative;
     margin-bottom: $spacer;
-    width: 200%;
+    width: 15%;
   }
 }
 
@@ -48,7 +50,7 @@ body {
 
     h2 {
       color: $primaryColor;
-      font-family: Montserrat;
+      font-family: "Montserrat";
       margin-top: $spacer;
       margin-bottom: $spacer/1;
       text-align: center;
@@ -57,12 +59,12 @@ body {
 
     title {
       color: #D749AA;
-      font-family: Montserrat-Black, Montserrat-Bold, Montserrat, Helvetica, Arial Black, sans-serif;
+      font-family: $fontpack;
       text-align: center;
 
       title p {
         color: $primaryColor;
-        font-family: Montserrat-Black, Montserrat-Bold, Montserrat, Helvetica, Arial Black, sans-serif;
+        font-family: $fontpack;
         font-size: 30px;
       }
     }
@@ -76,7 +78,7 @@ body {
       color: $primaryColor;
       font-family: $fontstack;
       text-align: left;
-      font-family: Montserrat-Black, Montserrat Bold, Montserrat, Helvetica, Arial Black, sans-serif;
+      font-family: $fontpack;
     }
 
 }
@@ -97,7 +99,7 @@ section {
 
   h1 {
     color: darken($primaryColor, 30%);
-    font-family: Montserrat-Black, Montserrat-Bold, Montserrat, Arial Black, Arial, sans-serif;
+    font-family: $fontpack;
     text-align: center;
     margin-top: $spacer/1;
     margin-bottom: $spacer/1;
@@ -147,5 +149,4 @@ footer {
       padding-top: $secondspacer;
     }
   }
-
 }
