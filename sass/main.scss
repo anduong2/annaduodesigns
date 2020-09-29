@@ -11,7 +11,7 @@ $md: 768px;
 $lg: 992px;
 $xl: 1200px;
 
-@mixin blocks {
+@mixin title {
   h1 {
     color: darken($primaryColor, 30%);
     font-family: $fontpack;
@@ -19,6 +19,15 @@ $xl: 1200px;
     margin-top: $spacer/1;
     margin-bottom: $spacer/1;
     font-style: bold;
+  }
+}
+
+@mixin subtitle {
+  h3 {
+    color: $primaryColor;
+    font-family: $fontstack;
+    text-align: left;
+    font-family: $fontpack;
   }
 }
 
@@ -197,12 +206,7 @@ article {
           font-family: $fontstack;
           text-align: center;
         }
-        h3 {
-            color: $primaryColor;
-            font-family: $fontstack;
-            text-align: left;
-            font-family: $fontpack;
-          }
+        @include title;
       }
     }
 }
