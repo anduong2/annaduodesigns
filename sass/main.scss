@@ -31,6 +31,15 @@ $xl: 1200px;
   }
 }
 
+@mixin social {
+  size: $spacer;
+  padding-left: 0.5em;
+  padding-top: $secondspacer;
+  float: center;
+  margin-bottom: $spacer(2);
+}
+
+
 header {
   position: absolute;
   color: purple;
@@ -101,6 +110,10 @@ body {
       font-family: $fontpack;
     }
 
+    h4 {
+      margin-bottom: $spacer;
+      }
+
 }
 
 ul {
@@ -115,6 +128,7 @@ ul {
 
 }
 
+
 section {
 
       @media (min-width: $sm) {
@@ -126,7 +140,9 @@ section {
 
       @media (min-width: $md){
         margin-left: auto;
-
+        img {
+          padding-left: 10px;
+        }
       }
 
       @media (min-width: $lg) {
@@ -140,9 +156,6 @@ section {
       margin-top: $spacer/1;
       margin-bottom: $spacer/1;
       font-style: bold;
-    h2 {
-      text-align: left;
-    }
 
     // h3 {
     //   color: $primaryColor;
@@ -183,7 +196,16 @@ section {
 }
 
 
-
+aside {
+  ul {
+    li {
+      p {
+        margin-bottom: $spacer(2);
+        margin-top: $spacer(4);
+      }
+    }
+  }
+}
 
 
 article ul {
@@ -213,11 +235,20 @@ article {
 
 
 footer {
+
+@media (min-width: $md) {
+  @mixin social {
+    align-items: center;
+  }
+}
+
   ul {
     img {
       size: $spacer;
       padding-left: 0.5em;
       padding-top: $secondspacer;
+      float: center;
+      margin-bottom: $spacer(2);
     }
   }
 }
