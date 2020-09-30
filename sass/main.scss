@@ -65,12 +65,16 @@ nav {
   }
 }
 
-
 body {
+  background-color: $secondaryColor;
+}
+
+
+main {
   background-color: $secondaryColor;
 
     h1 {
-      color: $primaryColor;
+      color: darken($primaryColor,20%);
       font-family: $fontstack;
       text-align: center;
       margin-top: $spacer/1;
@@ -82,7 +86,7 @@ body {
       font-family: "Montserrat";
       margin-top: $spacer;
       margin-bottom: $spacer/1;
-      text-align: center;
+      text-align: left;
       font-weight: bold;
     }
 
@@ -219,6 +223,13 @@ article ul {
 }
 
 article {
+  h1 {
+    color: darken($primaryColor,20%);
+    font-family: $fontstack;
+    text-align: center;
+    margin-top: $spacer/1;
+    margin-bottom: $spacer/1;
+  }
   p {
     text-align: left;
     @media (min-width: $md, $lg) {
@@ -229,6 +240,7 @@ article {
           text-align: center;
         }
         @include title;
+
       }
     }
 }
