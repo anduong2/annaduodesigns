@@ -18,7 +18,7 @@ header h1 {
 
 /* line 59, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 nav {
-  background-color: #F9F1F0;
+  background-color: important, #F9F1F0;
 }
 
 /* line 61, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
@@ -28,17 +28,17 @@ nav img {
   width: 15%;
 }
 
-/* line 68, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 69, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 body {
   background-color: #F9F1F0;
 }
 
-/* line 73, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 74, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 main {
   background-color: #F9F1F0;
 }
 
-/* line 76, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 77, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 main h1 {
   color: #982273;
   font-family: "Montserrat", Arial Black, Helvetica, sans-serif;
@@ -47,7 +47,7 @@ main h1 {
   margin-bottom: 1.5em;
 }
 
-/* line 84, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 85, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 main h2 {
   color: #D749AA;
   font-family: "Montserrat";
@@ -57,27 +57,27 @@ main h2 {
   font-weight: bold;
 }
 
-/* line 93, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 94, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 main title {
   color: #D749AA;
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
   text-align: center;
 }
 
-/* line 98, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 99, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 main title title p {
   color: #D749AA;
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
   font-size: 30px;
 }
 
-/* line 105, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 106, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 main p {
   color: #D749AA;
   position: relative;
 }
 
-/* line 110, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 111, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 main h3 {
   color: #D749AA;
   font-family: "Montserrat", Arial Black, Helvetica, sans-serif;
@@ -85,18 +85,18 @@ main h3 {
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
 }
 
-/* line 117, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 118, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 main h4 {
   margin-bottom: 1.5em;
 }
 
-/* line 123, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 124, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 ul {
   font-style: Arial, Roboto, Sans-serif;
   color: #D749AA;
 }
 
-/* line 127, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 128, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 ul p {
   font-family: Arial;
   margin-top: 1.5em;
@@ -104,7 +104,7 @@ ul p {
 }
 
 @media (min-width: 576px) {
-  /* line 139, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+  /* line 140, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
   section h2 {
     text-align: left;
     margin-left: 1.5em;
@@ -112,24 +112,24 @@ ul p {
 }
 
 @media (min-width: 768px) {
-  /* line 136, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+  /* line 137, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
   section {
     margin-left: auto;
   }
-  /* line 147, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+  /* line 148, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
   section img {
     padding-left: 10px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 136, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+  /* line 137, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
   section {
     margin-top: 4em;
   }
 }
 
-/* line 156, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 157, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 section h1 {
   color: #6f1853;
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
@@ -139,7 +139,7 @@ section h1 {
   font-style: bold;
 }
 
-/* line 172, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 173, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 section h4 {
   text-align: left;
   color: #D749AA;
@@ -148,7 +148,7 @@ section h4 {
   margin-top: 1.5em;
 }
 
-/* line 181, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 182, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 section ul li {
   font-family: arial, arial black, sans-serif;
   margin-top: 0.5em;
@@ -156,36 +156,36 @@ section ul li {
 }
 
 @media (min-width: (768px, 992px)) {
-  /* line 136, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+  /* line 137, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
   section {
     font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
     font-weight: bold;
   }
-  /* line 191, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+  /* line 192, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
   section h2 {
     font-family: "Montserrat", Arial Black, Helvetica, sans-serif;
     text-align: center;
   }
-  /* line 195, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+  /* line 196, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
   section p {
     text-align: right;
   }
 }
 
-/* line 206, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 207, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 aside ul li p {
   margin-bottom: 1.5em 2;
   margin-top: 1.5em 4;
 }
 
-/* line 217, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 218, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 article ul li #cropbook #digital #spine img {
   size: 50%;
   padding-left: 1em;
   padding-top: 3em;
 }
 
-/* line 226, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 227, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 article h1 {
   color: #982273;
   font-family: "Montserrat", Arial Black, Helvetica, sans-serif;
@@ -194,18 +194,18 @@ article h1 {
   margin-bottom: 1.5em;
 }
 
-/* line 233, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 234, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 article p {
   text-align: left;
 }
 
 @media (min-width: (768px, 992px)) {
-  /* line 233, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+  /* line 234, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
   article p {
     font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
     font-weight: bold;
   }
-  /* line 238, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+  /* line 239, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
   article p h2 {
     font-family: "Montserrat", Arial Black, Helvetica, sans-serif;
     text-align: center;
@@ -221,7 +221,7 @@ article p {
   }
 }
 
-/* line 258, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 259, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 footer ul img {
   size: 1.5em;
   padding-left: 0.5em;

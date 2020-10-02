@@ -57,11 +57,12 @@ header {
 }
 
 nav {
-  background-color: $secondaryColor;
+  background-color: important, $secondaryColor;
   img {
     position: relative;
     margin-bottom: $spacer;
     width: 15%;
+
   }
 }
 
