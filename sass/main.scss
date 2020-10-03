@@ -39,6 +39,33 @@ $xl: 1200px;
   margin-bottom: $spacer(2);
 }
 
+@mixin sec-title {
+  h2 {
+    color: $primaryColor;
+    font-family: "Montserrat";
+    margin-top: $spacer;
+    margin-bottom: $spacer/1;
+    text-align: left;
+    font-weight: bold;
+  }
+}
+
+@mixin pack {
+  font-family: $fontpack;
+  color: $primaryColor;
+}
+
+@mixin pack2{
+  font-family: $fontpack;
+  font-weight: bold;
+}
+
+@mixin fontpack {
+  font-family: $fontstack;
+  text-align: center;
+  color: $primaryColor;
+}
+
 
 header {
   position: absolute;
@@ -56,21 +83,64 @@ header {
   }
 }
 
-nav {
-  .navbar-nav {
-    background-color: important, $secondaryColor;
-  }
-  background-color: important, $secondaryColor;
-  img {
-    position: relative;
-    margin-bottom: $spacer;
-    width: 15%;
-  }
-}
-
 body {
   background-color: $secondaryColor;
+  .navbar .navbar-expand-lg .navbar-light .bg-light{
+    background-color: important, $secondaryColor, none, transparent;
+    nav {
+      background-color: $secondaryColor;
+    }
+  }
+
+
 }
+
+  #navigation {
+    color: #000000;
+    background-color: none, transparent,$secondaryColor,'important';
+  }
+  #navbar {
+    background-color: important, transparent, none, $secondaryColor;
+    a img {
+      background-color: $secondaryColor;
+    }
+}
+
+
+
+// body {
+//   background-color: $secondaryColor;
+//   nav {
+//     .navbar {
+//       background-color: $secondaryColor(important);
+//     }
+//     .navbar-light .navbar-brand {
+//       background-color:$secondaryColor(important);
+//     }
+//     #navbar {
+//       color: black(important);
+//       background-color: $secondaryColor(important);
+//     }
+//     #navsection{
+//       background-color: $secondaryColor;
+//     }
+//     #navbarNav {
+//       background-color:$secondaryColor;
+//     }
+//     img {
+//       position: relative;
+//       margin-bottom: $spacer;
+//       width: 20%;
+//     }
+//     p {
+//       background-color: inherit;
+//     }
+//     button {
+//       background-color: $secondaryColor;
+//     }
+//   }
+//
+// }
 
 
 main {
@@ -215,6 +285,29 @@ aside {
 }
 
 
+article {
+  h1 {
+    color: darken($primaryColor, 30%);
+    font-family: $fontpack;
+    text-align: center;
+    margin-top: $spacer/1;
+    margin-bottom: $spacer/1;
+    font-style: bold;    }
+  p {
+    font-family: $fontstack;
+    color: $primaryColor;
+  }
+
+  h2 {
+    @include fontpack;
+    text-align: left;
+    color: darken($primaryColor,15%);
+  }
+}
+
+
+
+
 article ul {
     li {
       #cropbook #digital #spine img {
@@ -223,30 +316,36 @@ article ul {
         padding-top: $spacer*2;
       }
     }
-}
-
-article {
-  h1 {
-    color: darken($primaryColor,20%);
-    font-family: $fontstack;
-    text-align: center;
-    margin-top: $spacer/1;
-    margin-bottom: $spacer/1;
-  }
-  p {
-    text-align: left;
-    @media (min-width: $md, $lg) {
-        font-family: $fontpack;
-        font-weight: bold;
-        h2 {
-          font-family: $fontstack;
-          text-align: center;
-        }
-        @include title;
-
-      }
+    h1 {
+    @include title;
     }
+
 }
+
+
+form {
+  @include sec-title;
+
+  h2 {
+    @include pack;
+    font-size: 2em;
+  }
+
+  label {
+    @include pack;
+  }
+  textarea {
+    @include pack;
+  }
+  section {
+    @include pack;
+  }
+  button .btn {
+    background-color: $primaryColor;
+    color: #000000;
+  }
+}
+
 
 
 footer {
