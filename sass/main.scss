@@ -149,10 +149,12 @@ main {
     h1 {
       color: darken($primaryColor,20%);
       font-family: $fontstack;
+      font-weight: bold;
       text-align: center;
       margin-top: $spacer/1;
       margin-bottom: $spacer/1;
     }
+
 
     h2 {
       color: $primaryColor;
@@ -191,6 +193,12 @@ main {
       margin-bottom: $spacer;
       }
 
+      ul {
+        li {
+          margin-bottom: 1.5em;
+          margin-top: $secondspacer;
+        }
+      }
 }
 
 ul {
