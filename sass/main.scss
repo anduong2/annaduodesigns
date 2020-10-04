@@ -310,6 +310,14 @@ article {
     @include fontpack;
     text-align: left;
     color: darken($primaryColor,15%);
+    margin-top: $secondspacer;
+  }
+  h3 {
+    @include fontpack;
+    text-align: left;
+    color: darken($primaryColor, 20%);
+    margin-top: $secondspacer;
+    font-weight: bold;
   }
 }
 
@@ -357,7 +365,7 @@ form {
 
 
 footer {
-
+  margin-top: $secondspacer;
 @media (min-width: $md) {
   @mixin social {
     align-items: center;

@@ -222,9 +222,21 @@ article h2 {
   color: #D749AA;
   text-align: left;
   color: #ad2683;
+  margin-top: 1em;
 }
 
-/* line 321, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 315, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+article h3 {
+  font-family: "Montserrat", Arial Black, Helvetica, sans-serif;
+  text-align: center;
+  color: #D749AA;
+  text-align: left;
+  color: #982273;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+/* line 329, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 article ul li #cropbook #digital #spine img {
   size: 50%;
   padding-left: 1em;
@@ -251,38 +263,43 @@ form h2 {
   font-weight: bold;
 }
 
-/* line 337, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 345, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 form h2 {
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
   color: #D749AA;
   font-size: 2em;
 }
 
-/* line 342, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 350, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 form label {
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
   color: #D749AA;
 }
 
-/* line 345, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 353, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 form textarea {
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
   color: #D749AA;
 }
 
-/* line 348, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 356, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 form section {
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
   color: #D749AA;
 }
 
-/* line 351, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 359, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 form button .btn {
   background-color: #D749AA;
   color: #000000;
 }
 
-/* line 368, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 367, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+footer {
+  margin-top: 1em;
+}
+
+/* line 376, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 footer ul img {
   size: 1.5em;
   padding-left: 0.5em;
