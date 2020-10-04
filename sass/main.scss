@@ -213,6 +213,7 @@ ul {
 
   img {
     float: center;
+    margin-bottom: $spacer;
   }
 
 }
@@ -280,6 +281,13 @@ section {
       p {
         text-align: right;
     }
+  }
+
+  p {
+    color: darken($primaryColor, 15%);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: $spacer;
   }
 
 }
