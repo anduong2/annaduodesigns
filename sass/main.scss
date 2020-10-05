@@ -88,7 +88,7 @@ body {
   .navbar .navbar-expand-lg .navbar-light .bg-light{
     background-color: important, $secondaryColor, none, transparent;
     nav {
-      background-color: $secondaryColor;
+      background-color: !important, $secondaryColor;
     }
   }
 
@@ -214,6 +214,7 @@ ul {
   img {
     float: center;
     margin-bottom: $spacer;
+    position: relative;
   }
 
 }
