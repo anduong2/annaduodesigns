@@ -118,6 +118,34 @@ body {
     }
 }
 
+
+#attribute {
+
+  a {
+    text-decoration: none;
+    font-family: $fontpack;
+    font-size: $spacer/2;
+    text-align: left;
+  }
+
+
+  ul {
+    text-align: left;
+    text-decoration: none;
+    color: $primaryColor;
+    #designby li {
+      text-align: left;
+      text-decoration: none;
+      color: $primaryColor;
+    }
+    .carousel-indicators {
+      text-align: left;
+      color: $primaryColor;
+    }
+  }
+}
+
+
 #button button {
   background-color: !important,$primaryColor;
   .btn {
