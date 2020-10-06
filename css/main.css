@@ -241,24 +241,31 @@ section ul li {
   color: darken #D749AA, 10%;
 }
 
+/* line 297, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+section ul li img {
+  width: 25%;
+  align-items: center;
+  margin-top: 10em;
+}
+
 @media (min-width: (768px, 992px)) {
   /* line 248, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
   section {
     font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
     font-weight: bold;
   }
-  /* line 303, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+  /* line 308, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
   section h2 {
     font-family: "Montserrat", Arial Black, Helvetica, sans-serif;
     text-align: center;
   }
-  /* line 307, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+  /* line 312, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
   section p {
     text-align: right;
   }
 }
 
-/* line 312, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 317, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 section p {
   color: #ad2683;
   text-decoration: none;
@@ -266,13 +273,34 @@ section p {
   margin-top: 1.5em;
 }
 
-/* line 325, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 328, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+aside ul {
+  margin-top: 5em;
+  margin-bottom: 8em;
+}
+
+/* line 332, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 aside ul li p {
   margin-bottom: 1.5em 2;
   margin-top: 1.5em 4;
 }
 
-/* line 335, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 338, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+aside #origamispecific img {
+  margin-top: 5em;
+}
+
+/* line 341, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+aside #origamispecific h3 {
+  margin-top: 1em;
+}
+
+/* line 344, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+aside img {
+  margin-top: 5em;
+}
+
+/* line 351, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 article h1 {
   color: #6f1853;
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
@@ -282,13 +310,13 @@ article h1 {
   font-style: bold;
 }
 
-/* line 342, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 358, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 article p {
   font-family: "Montserrat", Arial Black, Helvetica, sans-serif;
   color: #D749AA;
 }
 
-/* line 347, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 363, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 article h2 {
   font-family: "Montserrat", Arial Black, Helvetica, sans-serif;
   text-align: center;
@@ -298,7 +326,7 @@ article h2 {
   margin-top: 1em;
 }
 
-/* line 353, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 369, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 article h3 {
   font-family: "Montserrat", Arial Black, Helvetica, sans-serif;
   text-align: center;
@@ -309,7 +337,12 @@ article h3 {
   font-weight: bold;
 }
 
-/* line 367, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 376, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+article img {
+  margin-top: 3em;
+}
+
+/* line 386, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 article ul li #cropbook #digital #spine img {
   size: 50%;
   padding-left: 1em;
@@ -336,43 +369,50 @@ form h2 {
   font-weight: bold;
 }
 
-/* line 383, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 402, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 form h2 {
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
   color: #D749AA;
   font-size: 2em;
 }
 
-/* line 388, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 407, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 form label {
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
   color: #D749AA;
 }
 
-/* line 391, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 410, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 form textarea {
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
   color: #D749AA;
 }
 
-/* line 394, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 413, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 form section {
   font-family: "Montserrat", Helvetica, Arial Black, sans-serif;
   color: #D749AA;
 }
 
-/* line 397, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 416, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 form button .btn {
   background-color: #D749AA;
   color: #000000;
 }
 
-/* line 405, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+/* line 424, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 footer {
   margin-top: 1em;
 }
 
-/* line 414, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+@media (min-width: 992px) {
+  /* line 424, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
+  footer {
+    margin-top: 10em;
+  }
+}
+
+/* line 437, ../Users/creatiousclick/Desktop/github+fall_2020/portfolio-duong/sass/main.scss */
 footer ul img {
   size: 1.5em;
   padding-left: 0.5em;

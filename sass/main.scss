@@ -294,6 +294,11 @@ section {
       font-family: arial, arial black, sans-serif;
       margin-top: 0.5em;
       color: darken ($primaryColor, 10%);
+      img {
+        width: 25%;
+        align-items: center;
+        margin-top: 10em;
+      }
     }
   }
 
@@ -321,12 +326,23 @@ section {
 
 aside {
   ul {
+    margin-top: 5em;
+    margin-bottom: 8em;
     li {
       p {
         margin-bottom: $spacer(2);
         margin-top: $spacer(4);
       }
     }
+  }
+  #origamispecific img {
+    margin-top: 5em;
+  }
+  #origamispecific h3 {
+    margin-top: $secondspacer;
+  }
+  img {
+    margin-top: 5em;
   }
 }
 
@@ -356,6 +372,9 @@ article {
     color: darken($primaryColor, 20%);
     margin-top: $secondspacer;
     font-weight: bold;
+  }
+  img {
+    margin-top: $spacer*2;
   }
 }
 
@@ -408,6 +427,10 @@ footer {
   @mixin social {
     align-items: center;
   }
+}
+
+@media (min-width: $lg) {
+  margin-top: 10em;
 }
 
   ul {
