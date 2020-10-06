@@ -419,6 +419,7 @@ form {
   label {
     @include pack;
     font-weight: bold;
+    margin-bottom: $spacer/2;
   }
   textarea {
     @include pack;
