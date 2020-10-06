@@ -85,62 +85,23 @@ header {
 
 body {
   background-color: $secondaryColor;
-  .navbar .navbar-expand-lg .navbar-light .bg-light{
-    background-color: important, $secondaryColor, none, transparent;
-    nav {
-      background-color: !important, $secondaryColor;
-    }
+
   }
 
 
-}
-
-  #navigation {
-    color: #000000;
-    background-color: none, transparent,$secondaryColor,'important';
-  }
-  #navbar {
-    background-color: important, transparent, none, $secondaryColor;
-    a img {
-      background-color: $secondaryColor;
+  nav {
+    background-color: !important, $secondaryColor;
+    img {
+      padding: none;
+      float: left;
     }
-}
+    p {
+      font-size: $spacer/2;
+      color: $primaryColor;
+      font-family: arial black, "Montserrat-Black", helvetica, sans-serif;
+    }
+  }
 
-
-
-// body {
-//   background-color: $secondaryColor;
-//   nav {
-//     .navbar {
-//       background-color: $secondaryColor(important);
-//     }
-//     .navbar-light .navbar-brand {
-//       background-color:$secondaryColor(important);
-//     }
-//     #navbar {
-//       color: black(important);
-//       background-color: $secondaryColor(important);
-//     }
-//     #navsection{
-//       background-color: $secondaryColor;
-//     }
-//     #navbarNav {
-//       background-color:$secondaryColor;
-//     }
-//     img {
-//       position: relative;
-//       margin-bottom: $spacer;
-//       width: 20%;
-//     }
-//     p {
-//       background-color: inherit;
-//     }
-//     button {
-//       background-color: $secondaryColor;
-//     }
-//   }
-//
-// }
 
 
 main {
