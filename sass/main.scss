@@ -103,6 +103,42 @@ body {
   }
 
 
+.bd-example {
+
+    h5 {
+      color: darken($primaryColor,40%);
+      font-family: "Montserrat-Black", Arial Black, Helvetica, sans-serif;
+      margin-top: $spacer;
+      text-align: center;
+  }
+    p {
+      text-align: center;
+      font-family: $fontpack;
+      margin-top: $spacer;
+    }
+}
+
+#button button {
+  background-color: !important,$primaryColor;
+  .btn {
+    color:!important, $primaryColor;
+    background-color: !important, $primaryColor;
+  }
+}
+
+#skills strong {
+  text-decoration: none;
+  color: $primaryColor;
+}
+
+.form-group {
+  label {
+    margin-top: $spacer;
+    margin-bottom: $secondaryColor/2;
+  }
+}
+
+
 
 main {
   background-color: $secondaryColor;
