@@ -53,6 +53,7 @@ $xl: 1200px;
 @mixin pack {
   font-family: $fontpack;
   color: $primaryColor;
+  font-size: 1.3em;
 }
 
 @mixin pack2{
@@ -404,8 +405,20 @@ form {
     font-size: 2em;
   }
 
+  h3 {
+    font-family: arial, helvetica, sans-serif;
+    color: $primaryColor;
+    color: darken($primaryColor,20%);
+    font-size: $spacer;
+    font-weight: bold;
+    margin-bottom: $secondspacer;
+    text-align: center;
+    margin-top: 5em;
+  }
+
   label {
     @include pack;
+    font-weight: bold;
   }
   textarea {
     @include pack;
