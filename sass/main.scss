@@ -223,6 +223,14 @@ main {
         li {
           margin-bottom: 1.5em;
           margin-top: $secondspacer;
+          padding: inherit;
+          @media (min-width: $sm $md) {
+            padding: $spacer/3;
+            margin-top: $spacer;
+          }
+          img {
+            align-items: center;
+          }
         }
       }
 }
@@ -366,6 +374,8 @@ article {
     text-align: left;
     color: darken($primaryColor,15%);
     margin-top: $secondspacer;
+    font-weight: bold;
+    margin-bottom: $spacer/2;
   }
   h3 {
     @include fontpack;
@@ -437,6 +447,8 @@ form {
 
 footer {
   margin-top: $secondspacer;
+  align-items: baseline;
+  margin-top: 5em;
 @media (min-width: $md) {
   @mixin social {
     align-items: center;
