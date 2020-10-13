@@ -9,8 +9,8 @@ $field_message = $_POST['Message'];
 $mail_to = 'annaduodesigns@gmail.com';
 $subject = '#Message# '.$field_name;
 
-$body_message = 'From: '.$field_name."\r\n";
-$body_message = 'Last Name: '.$field_name."\r\n";
+$body_message = 'From:FirstName '.$field_name."\r\n";
+$body_message = 'From: LastName: '.$field_name."\r\n";
 
 $body_message .= 'E-mail: '.$field_email."\r\n";
 $body_message .= 'Message: '.$field_message;
