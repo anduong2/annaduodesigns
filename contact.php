@@ -15,8 +15,8 @@ $body_message = 'From: LastName: '.$field_name."\r\n";
 $body_message .= 'E-mail: '.$field_email."\r\n";
 $body_message .= 'Message: '.$field_message;
 
-$headers = 'From: '.$E-Mail."rn";
-$headers .= 'Reply-To: '.$E-Mail."rn";
+$headers = 'From: '.$E-Mail."\r\n";
+$headers .= 'Reply-To: '.$E-Mail."\r\n";
 
 $mail_status = mail($mail_to, $subject, $body_message, $headers);
 
