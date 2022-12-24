@@ -1,7 +1,7 @@
 $primaryColor: #D749AA;
 $secondaryColor: #F9F1F0;
 $fontstack: "Montserrat", Arial Black, Helvetica, sans-serif;
-$fontface: Arial, Roboto, Sans-serif;
+$fontface: "Roboto", Arial, Sans-serif;
 $fontpack: "Montserrat", Helvetica, Arial Black, sans-serif;
 
 $spacer: 1.5em;
@@ -206,6 +206,7 @@ main {
     p {
       color: $primaryColor;
       position: relative;
+      margin-top: auto;
     }
 
     h3 {
@@ -221,9 +222,6 @@ main {
 
       ul {
         li {
-          margin-bottom: 1.5em;
-          margin-top: $secondspacer;
-          padding: inherit;
           @media (min-width: $sm $md) {
             padding: $spacer/3;
             margin-top: $spacer;
@@ -394,9 +392,7 @@ article {
     color: darken($primaryColor, 20%);
     margin-top: $secondspacer;
     font-weight: bold;
-  }
-  img {
-    margin-top: $spacer*2;
+    margin-bottom: $secondspacer;
   }
 }
 
